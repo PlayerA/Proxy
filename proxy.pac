@@ -1,3 +1,3 @@
 function FindProxyForURL(url, host) {
-    return "PROXY www.baidu.com; DIRECT";
+    return "PROXY 10.10.7.223:8080; DIRECT";
 }
